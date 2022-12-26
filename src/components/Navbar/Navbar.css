@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    color: black;
+    padding: 0.5rem 3rem 0.5rem;
+    vertical-align: middle;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.navbar li{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.leftul{
+    padding: 0;
+    margin: 1rem;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: auto;
+
+}
+
+.rightul{
+    
+    margin: 1rem;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    vertical-align: middle;
+}
+
+.btn{
+   
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    border-radius: 10px;
+    vertical-align: middle;
+}
